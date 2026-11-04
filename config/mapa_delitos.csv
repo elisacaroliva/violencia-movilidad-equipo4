@@ -1,0 +1,5 @@
+delito_id,etiqueta,patron_nivel1,patron_nivel2,patron_nivel3,nota
+hom_doloso,Homicidio doloso,^HOMICIDIOS$,^DOLOSOS$,.*,"MODALIDAD=HOMICIDIOS, TIPO=DOLOSOS, todos los subtipos (arma de fuego, arma blanca, otros, sin datos)."
+secuestro,Secuestro,SECUESTRO,^SECUESTRO$,.*,"MODALIDAD=PRIV. DE LA LIBERTAD (SECUESTRO), TIPO=SECUESTRO."
+extorsion,Extorsion,^DELITOS PATRIMONIALES$,^EXTORSION$,.*,"MODALIDAD=DELITOS PATRIMONIALES, TIPO=EXTORSION."
+robo_carr_cv,Robo en carreteras con violencia,^ROBO EN CARRETERAS$,^CON VIOLENCIA$,.*,"MODALIDAD=ROBO EN CARRETERAS, TIPO=CON VIOLENCIA, todos los subtipos. Sin registro nacional antes de 2002: se trata como faltante, no como cero."

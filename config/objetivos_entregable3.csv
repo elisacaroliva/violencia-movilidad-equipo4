@@ -1,0 +1,112 @@
+indicador,valor_entregable3,tolerancia,modulo,seccion
+n_principal,15558,0,entidad,3.5
+n_sin_corresidentes,12705,0,entidad,Tabla 2
+n_con_migrantes,17789,0,entidad,Tabla 2
+entidades,31,0,entidad,3.5
+expuestos,5035,0,entidad,3.5
+pct_expuestos,32.4,0.05,entidad,3.5
+var_pc1_origen_pct,21.0,0.05,entidad,3.4
+var_pc1_destino_pct,16.1,0.05,entidad,3.4
+de_intensidad,0.409,0.0005,entidad,3.3
+pendiente_base,0.650,0.0005,entidad,4.1
+t1_media_r_ori,0.505,0.0005,entidad,Tabla 1
+t1_media_ed_yo,10.453,0.0005,entidad,Tabla 1
+t1_media_ed_pad,8.816,0.0005,entidad,Tabla 1
+t1_n_ed_pad,11814,0,entidad,Tabla 1
+t1_media_intensidad,0.155,0.0005,entidad,Tabla 1
+t1_media_dosis,0.031,0.0005,entidad,Tabla 1
+t1_media_rural,0.317,0.0005,entidad,Tabla 1
+t1_media_corresidencia,0.210,0.0005,entidad,Tabla 1
+corr_entidades,-0.19,0.005,entidad,4.1
+corr_entidades_ic_inf,-0.51,0.005,entidad,4.1
+corr_entidades_ic_sup,0.17,0.005,entidad,4.1
+corr_entidades_sin_chica,-0.34,0.005,entidad,4.1
+pend_1959_1966,0.554,0.0005,entidad,4.1
+pend_1967_1974,0.600,0.0005,entidad,4.1
+pend_1975_1984,0.665,0.0005,entidad,4.1
+pend_1985_1991,0.681,0.0005,entidad,4.1
+pend_1992_1998,0.693,0.0005,entidad,4.1
+b3_base,0.0161,0.0005,entidad,Tabla 2
+ee_base,0.0255,0.0005,entidad,Tabla 2
+b3_sin_corresidentes,0.0088,0.0005,entidad,Tabla 2
+ee_sin_corresidentes,0.0238,0.0005,entidad,Tabla 2
+b3_con_migrantes,0.0036,0.0005,entidad,Tabla 2
+ee_con_migrantes,0.0227,0.0005,entidad,Tabla 2
+b3_solo_homicidio,0.0100,0.0005,entidad,Tabla 2
+ee_solo_homicidio,0.0218,0.0005,entidad,Tabla 2
+ee_cluster_nacimiento,0.0245,0.0005,entidad,Tabla 2
+p_permutacion,0.62,0.035,entidad,5.1
+nulo_p2.5,-0.060,0.005,entidad,5.1
+nulo_p97.5,0.063,0.005,entidad,5.1
+capa1_b3,0.0302,0.0005,entidad,Tabla 3
+capa2_b3,0.0007,0.0005,entidad,Tabla 3
+capa3_b3,0.0469,0.0005,entidad,Tabla 3
+capa3_t,2.38,0.01,entidad,Tabla 3
+evento_F_previos,0.42,0.015,entidad,5.3
+evento_p_previos,0.79,0.015,entidad,5.3
+evento_p_sin_pendiente_nac,0.039,0.005,entidad,5.3
+mde_por_de,0.0715,0.0005,entidad,5.7
+mde_pct_pendiente,11.0,0.05,entidad,5.7
+cofenetica,0.603,0.0005,entidad,Tabla 4
+silueta_ward_k3,0.236,0.0005,entidad,Tabla 4
+silueta_kmedias_k3,0.247,0.0005,entidad,Tabla 4
+silueta_kmedias_k4,0.167,0.0005,entidad,Tabla 4
+ari_ward_kmedias,0.849,0.0005,entidad,Tabla 4
+estabilidad_ari_media,0.865,0.01,entidad,Tabla 4
+estabilidad_ari_p5,0.631,0.02,entidad,Tabla 4
+r2_vs_k1_k3,0.388,0.0005,entidad,Tabla 4
+calinski_k2,11.46,0.005,entidad,Tabla 4
+calinski_k3,9.18,0.005,entidad,Tabla 4
+davies_bouldin_k3,1.551,0.0005,entidad,Tabla 4
+amplitud_picos,20,0,entidad,Tabla 4
+conglomerado_temprano_entidades,15,0,entidad,5.4
+conglomerado_tardio_entidades,11,0,entidad,5.4
+conglomerado_sin_repunte_entidades,6,0,entidad,5.4
+dbscan_grupos_max,1,0,entidad,5.4
+dbscan_ruido_min,3,0,entidad,5.4
+dbscan_ruido_max,14,0,entidad,5.4
+b3_temprano,0.0852,0.0005,entidad,Tabla 4
+t_temprano,2.59,0.01,entidad,Tabla 4
+p_perm_temprano,0.193,0.035,entidad,Tabla 4
+b3_tardio,-0.0350,0.0005,entidad,Tabla 4
+t_tardio,-2.64,0.02,entidad,Tabla 4
+p_perm_tardio,0.380,0.035,entidad,Tabla 4
+b3_sin_repunte,-0.0309,0.001,entidad,Tabla 4
+p_perm_sin_repunte,0.791,0.035,entidad,Tabla 4
+het_mujeres,0.0354,0.0005,entidad,Tabla 6
+het_hombres,0.0199,0.0005,entidad,Tabla 6
+het_rural,0.0288,0.0005,entidad,Tabla 6
+het_urbano,0.0118,0.0005,entidad,Tabla 6
+het_q12,-0.1054,0.0005,entidad,Tabla 6
+het_q45,0.0044,0.0005,entidad,Tabla 6
+rango_escolaridad_b3,0.0197,0.0005,entidad,Tabla 6
+q1_sigue_q1,-0.0189,0.0005,entidad,Tabla 6
+q1_llega_q45,-0.0157,0.0005,entidad,Tabla 6
+n_q1,2236,0,entidad,Tabla 6
+primera_escolaridad,0.0339,0.0005,entidad,Tabla 6
+primera_escolaridad_cota,0.416,0.0005,entidad,Tabla 6
+primera_activos,-0.0277,0.0005,entidad,Tabla 6
+primera_migracion,0.0083,0.0005,entidad,Tabla 6
+transiciones_mde_pct,25,0.5,entidad,5.7
+mun_n,15529,0,municipal,Tabla 5
+mun_municipios,821,0,municipal,3.5
+mun_b3_conteo,-0.0344,0.0005,municipal,Tabla 5
+mun_ee_conteo,0.0232,0.0005,municipal,Tabla 5
+mun_b3_tasa,0.0084,0.0005,municipal,Tabla 5
+mun_ee_tasa,0.0175,0.0005,municipal,Tabla 5
+mun_b3_tasa_tamano,0.0076,0.0005,municipal,Tabla 5
+mun_ee_tasa_entidad,0.0183,0.0005,municipal,Tabla 5
+mun_cor_rural_conteo_intra,-0.30,0.005,municipal,Tabla 5
+mun_cor_rural_tasa_intra,-0.11,0.005,municipal,Tabla 5
+mun_cor_rural_conteo_niveles,-0.37,0.005,municipal,Tabla 5
+mun_cor_rural_tasa_niveles,-0.16,0.005,municipal,Tabla 5
+mun_de_intra,0.71,0.005,municipal,4.5
+mun_p_evento_con_tamano,0.13,0.015,municipal,5.5
+mun_p_evento_sin_tamano,0.22,0.015,municipal,5.5
+mun_mde_pct,7.6,0.05,municipal,5.7
+mun_dbscan_municipios,533,0,municipal,5.4
+pool_mde_pct,12,0.5,pool_2017,5.7
+pool_pct_expuestos_2017,14,0.5,pool_2017,5.7
+pool_frac_max_2017,0.44,0.005,pool_2017,5.7
+ciclo_pend_2017,0.637,0.0005,pool_2017,5.3
+ciclo_pend_2023,0.583,0.0005,pool_2017,5.3
