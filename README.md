@@ -41,14 +41,6 @@ El resultado principal es por entidad y no depende de estos dos módulos. Se con
 
 Si el interruptor está en `FALSE` o falta el archivo, el script escribe `t11_estado.csv` o `t12_estado.csv` con "omitido". El pipeline sigue y el script 13 marca esas cifras como omitidas. Ver `INSTRUCCIONES_DATOS.md`.
 
-## Datos
-
-Los datos **no están en el repositorio**. La ESRU-EMOVI la distribuye el CEEY a petición, y los archivos municipales del SESNSP y de CONAPO pesan más de 60 MB. Para reproducir los resultados, coloca los archivos en `data/raw/` como indica `INSTRUCCIONES_DATOS.md`. Las tablas y figuras de `output/` sí están incluidas.
-
-## Reproducibilidad
-
-El pipeline se corrió de punta a punta en dos entornos: Linux con R 4.4.3 y Windows 11 con R 4.5.2 (`output/logs/session_info.txt`). Los resultados coinciden hasta el sexto decimal, salvo la prueba de robustez con ACM, que cambia en el cuarto decimal por la versión de FactoMineR. La semilla es 20261102.
-
 ## Cómo correrlo
 
 1. Abre `Equipo_4_v5.Rproj` en RStudio.
@@ -56,11 +48,11 @@ El pipeline se corrió de punta a punta en dos entornos: Linux con R 4.4.3 y Win
    ```r
    install.packages(c("here","dplyr","tidyr","readr","stringr","stringi","purrr","tibble","haven",
                       "fixest","survey","FactoMineR","cluster","dbscan","ggplot2","scales",
-                      "sessioninfo","jsonlite"))
+                      "sessioninfo","jsonlite","ranger"))
    ```
-3. Corre `source("scripts/00_correr_todo.R")`. Tarda unos 2 minutos.
+3. Corre `source("scripts/00_correr_todo.R")`. Tarda unos 4 minutos.
 4. Revisa:
-   - `output/logs/tiempos_y_estado.csv`: los 13 scripts deben decir "ok".
+   - `output/logs/tiempos_y_estado.csv`: los 14 scripts deben decir "ok".
    - `output/tablas/t13_verificacion_entregable3.csv`.
 
 ## Del artículo al código
@@ -81,6 +73,7 @@ El pipeline se corrió de punta a punta en dos entornos: Linux con R 4.4.3 y Win
 | 5.7: EMD | 07, 10, 11, 12 | t07_potencia y otras |
 | 5.3: ciclo de vida con EMOVI 2017 | 12 (opcional) | t12_* |
 | Robustez (correcciones v4 y otras) | 07 | t07_robustez |
+| Validación predictiva: entrenamiento/prueba por UPM, validación cruzada, modelo de referencia, importancia por permutación | 14 | t14_*, fig11 |
 
 ## Estructura
 
@@ -93,5 +86,6 @@ scripts/  00_configuracion.R (todos los parámetros e interruptores) · 00_corre
           limpieza/   01 EMOVI · 02 índices y rangos · 03 panel de violencia · 04 conglomerados · 05 dosis
           resultados/ 06 descriptivos · 07 modelo · 08 inferencia · 09 supuesto y placebo
                       10 heterogeneidad · 11 municipal* · 12 EMOVI 2017* · 13 verificación
+                      14 validación predictiva (bosque aleatorio vs. modelo lineal de referencia)
 output/   tablas/ figuras/ logs/
 ```

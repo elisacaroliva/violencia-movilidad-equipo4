@@ -41,7 +41,12 @@
 - El grupo tardío tiene 10 entidades en la estimación, no 11.
 - El cero del robo en 1997-2001 debería explicarse en la Fig. 1.
 
-**Técnico:** el pipeline completo tarda unos 2 minutos.
+**Técnico:** el pipeline completo tarda unos 4 minutos.
+
+**Adición (Entrega 2 del artículo): script 14, validación predictiva.**
+- Partición 80/20 por UPM, validación cruzada de 5 pliegues por UPM para los hiperparámetros del bosque aleatorio, ponderación por el factor de expansión.
+- RMSE en prueba: referencia rango-rango 0.228; lineal con EF 0.217; con dosis 0.217; bosque sin dosis 0.219; con dosis 0.219.
+- La dosis no mejora la predicción fuera de muestra: +0.00004 (IC −0.00008 a +0.00016) en el modelo lineal y +0.0002 (IC −0.0010 a +0.0016) en el bosque. Es la contraparte predictiva del nulo causal.
 
 ## v4, 3 de noviembre de 2026: modelo por entidad de la presentación, corregido
 
