@@ -1,0 +1,112 @@
+indicador,valor_entregable3,tolerancia,modulo,seccion,valor_v5,diferencia,estado
+n_principal,15558,0,entidad,3.5,15558,0,coincide
+n_sin_corresidentes,12705,0,entidad,Tabla 2,12705,0,coincide
+n_con_migrantes,17789,0,entidad,Tabla 2,17789,0,coincide
+entidades,31,0,entidad,3.5,31,0,coincide
+expuestos,5035,0,entidad,3.5,5035,0,coincide
+pct_expuestos,32.4,0.05,entidad,3.5,32.36277156446844,-0.03722843553155997,coincide
+var_pc1_origen_pct,21,0.05,entidad,3.4,20.99692600742627,-0.0030739925737286455,coincide
+var_pc1_destino_pct,16.1,0.05,entidad,3.4,16.12874388926947,0.02874388926946736,coincide
+de_intensidad,0.409,5e-4,entidad,3.3,0.4086860483122272,-3.1395168777276217e-4,coincide
+pendiente_base,0.65,5e-4,entidad,4.1,0.6501867696580871,1.8676965808706036e-4,coincide
+t1_media_r_ori,0.505,5e-4,entidad,Tabla 1,0.5049649300260095,-3.506997399049805e-5,coincide
+t1_media_ed_yo,10.453,5e-4,entidad,Tabla 1,10.452609093590294,-3.90906409705849e-4,coincide
+t1_media_ed_pad,8.816,5e-4,entidad,Tabla 1,8.816367156901443,3.671569014418452e-4,coincide
+t1_n_ed_pad,11814,0,entidad,Tabla 1,11814,0,coincide
+t1_media_intensidad,0.155,5e-4,entidad,Tabla 1,0.15531799970913163,3.179997091316278e-4,coincide
+t1_media_dosis,0.031,5e-4,entidad,Tabla 1,0.030565887042555442,-4.3411295744455805e-4,coincide
+t1_media_rural,0.317,5e-4,entidad,Tabla 1,0.317460837007368,4.6083700736798683e-4,coincide
+t1_media_corresidencia,0.21,5e-4,entidad,Tabla 1,0.2099861552533097,-1.3844746690305776e-5,coincide
+corr_entidades,-0.19,0.005,entidad,4.1,-0.1915363216422809,-0.0015363216422809023,coincide
+corr_entidades_ic_inf,-0.51,0.005,entidad,4.1,-0.5111829633639895,-0.0011829633639894865,coincide
+corr_entidades_ic_sup,0.17,0.005,entidad,4.1,0.17465763803165463,0.004657638031654615,coincide
+corr_entidades_sin_chica,-0.34,0.005,entidad,4.1,-0.3439472127691648,-0.003947212769164765,coincide
+pend_1959_1966,0.554,5e-4,entidad,4.1,0.5544842865437566,4.8428654375654023e-4,coincide
+pend_1967_1974,0.6,5e-4,entidad,4.1,0.5998443450911624,-1.5565490883762134e-4,coincide
+pend_1975_1984,0.665,5e-4,entidad,4.1,0.6653555395303438,3.555395303437292e-4,coincide
+pend_1985_1991,0.681,5e-4,entidad,4.1,0.6807193589868514,-2.806410131486192e-4,coincide
+pend_1992_1998,0.693,5e-4,entidad,4.1,0.6925844774646374,-4.155225353625891e-4,coincide
+b3_base,0.0161,5e-4,entidad,Tabla 2,0.01600137104054701,-9.862895945298919e-5,coincide
+ee_base,0.0255,5e-4,entidad,Tabla 2,0.02550052956367287,5.295636728713804e-7,coincide
+b3_sin_corresidentes,0.0088,5e-4,entidad,Tabla 2,0.00866931761975047,-1.306823802495298e-4,coincide
+ee_sin_corresidentes,0.0238,5e-4,entidad,Tabla 2,0.02379725179332504,-2.7482066749622003e-6,coincide
+b3_con_migrantes,0.0036,5e-4,entidad,Tabla 2,0.00355227147343596,-4.772852656403969e-5,coincide
+ee_con_migrantes,0.0227,5e-4,entidad,Tabla 2,0.0226366704407792,-6.332955922080247e-5,coincide
+b3_solo_homicidio,0.01,5e-4,entidad,Tabla 2,0.00997456962305512,-2.543037694487972e-5,coincide
+ee_solo_homicidio,0.0218,5e-4,entidad,Tabla 2,0.02175138101669462,-4.8618983305378366e-5,coincide
+ee_cluster_nacimiento,0.0245,5e-4,entidad,Tabla 2,0.02452623628680631,2.6236286806310266e-5,coincide
+p_permutacion,0.62,0.035,entidad,5.1,0.624,0.0040000000000000036,coincide
+nulo_p2.5,-0.06,0.005,entidad,5.1,-0.06218920453197398,-0.002189204531973979,coincide
+nulo_p97.5,0.063,0.005,entidad,5.1,0.06341864971113172,4.186497111317161e-4,coincide
+capa1_b3,0.0302,5e-4,entidad,Tabla 3,0.030240395185261,4.039518526099961e-5,coincide
+capa2_b3,7e-4,5e-4,entidad,Tabla 3,7.626698904749651e-4,6.266989047496515e-5,coincide
+capa3_b3,0.0469,5e-4,entidad,Tabla 3,0.04684055942033676,-5.944057966323496e-5,coincide
+capa3_t,2.38,0.01,entidad,Tabla 3,2.3800564413225973,5.6441322597411414e-5,coincide
+evento_F_previos,0.42,0.015,entidad,5.3,0.4060387303341677,-0.013961269665832277,coincide
+evento_p_previos,0.79,0.015,entidad,5.3,0.8027847470700231,0.012784747070023084,coincide
+evento_p_sin_pendiente_nac,0.039,0.005,entidad,5.3,0.03954255722111832,5.425572211183172e-4,coincide
+mde_por_de,0.0715,5e-4,entidad,5.7,0.07140148277828404,-9.851722171595745e-5,coincide
+mde_pct_pendiente,11,0.05,entidad,5.7,10.981688048778944,-0.018311951221056333,coincide
+cofenetica,0.603,5e-4,entidad,Tabla 4,0.6027902990279254,-2.0970097207462235e-4,coincide
+silueta_ward_k3,0.236,5e-4,entidad,Tabla 4,0.23561720429726324,-3.82795702736749e-4,coincide
+silueta_kmedias_k3,0.247,5e-4,entidad,Tabla 4,0.2467339343717366,-2.660656282633955e-4,coincide
+silueta_kmedias_k4,0.167,5e-4,entidad,Tabla 4,0.2350848055066077,0.0680848055066077,difiere
+ari_ward_kmedias,0.849,5e-4,entidad,Tabla 4,0.8488226278389299,-1.7737216107005516e-4,coincide
+estabilidad_ari_media,0.865,0.01,entidad,Tabla 4,0.8617325867351273,-0.003267413264872676,coincide
+estabilidad_ari_p5,0.631,0.02,entidad,Tabla 4,0.6214655014700236,-0.009534498529976454,coincide
+r2_vs_k1_k3,0.388,5e-4,entidad,Tabla 4,0.3876276200276666,-3.7237997233341424e-4,coincide
+calinski_k2,11.46,0.005,entidad,Tabla 4,11.456667650834188,-0.003332349165813042,coincide
+calinski_k3,9.18,0.005,entidad,Tabla 4,9.178403001544748,-0.0015969984552519634,coincide
+davies_bouldin_k3,1.551,5e-4,entidad,Tabla 4,1.550967814897732,-3.218510226798976e-5,coincide
+amplitud_picos,20,0,entidad,Tabla 4,20,0,coincide
+conglomerado_temprano_entidades,15,0,entidad,5.4,15,0,coincide
+conglomerado_tardio_entidades,11,0,entidad,5.4,11,0,coincide
+conglomerado_sin_repunte_entidades,6,0,entidad,5.4,6,0,coincide
+dbscan_grupos_max,1,0,entidad,5.4,1,0,coincide
+dbscan_ruido_min,3,0,entidad,5.4,3,0,coincide
+dbscan_ruido_max,14,0,entidad,5.4,14,0,coincide
+b3_temprano,0.0852,5e-4,entidad,Tabla 4,0.08500423042624115,-1.957695737588444e-4,coincide
+t_temprano,2.59,0.01,entidad,Tabla 4,2.5880199113600075,-0.001980088639992328,coincide
+p_perm_temprano,0.193,0.035,entidad,Tabla 4,0.202,0.009000000000000008,coincide
+b3_tardio,-0.035,5e-4,entidad,Tabla 4,-0.03482601556930725,1.7398443069275432e-4,coincide
+t_tardio,-2.64,0.02,entidad,Tabla 4,-2.6241550189475427,0.015844981052457463,coincide
+p_perm_tardio,0.38,0.035,entidad,Tabla 4,0.3755,-0.004500000000000004,coincide
+b3_sin_repunte,-0.0309,0.001,entidad,Tabla 4,-0.03153779268046393,-6.377926804639299e-4,coincide
+p_perm_sin_repunte,0.791,0.035,entidad,Tabla 4,0.776,-0.015000000000000013,coincide
+het_mujeres,0.0354,5e-4,entidad,Tabla 6,0.03542547297921192,2.547297921191849e-5,coincide
+het_hombres,0.0199,5e-4,entidad,Tabla 6,0.0196179756356508,-2.8202436434920236e-4,coincide
+het_rural,0.0288,5e-4,entidad,Tabla 6,0.02882322938537575,2.3229385375751754e-5,coincide
+het_urbano,0.0118,5e-4,entidad,Tabla 6,0.01175752375361235,-4.247624638764949e-5,coincide
+het_q12,-0.1054,5e-4,entidad,Tabla 6,-0.10539298123405094,7.0187659490517085e-6,coincide
+het_q45,0.0044,5e-4,entidad,Tabla 6,0.00445621949494989,5.6219494949889814e-5,coincide
+rango_escolaridad_b3,0.0197,5e-4,entidad,Tabla 6,0.03434141839195773,0.01464141839195773,difiere
+q1_sigue_q1,-0.0189,5e-4,entidad,Tabla 6,-0.01892317183978826,-2.317183978825868e-5,coincide
+q1_llega_q45,-0.0157,5e-4,entidad,Tabla 6,-0.01563549758721079,6.450241278921007e-5,coincide
+n_q1,2236,0,entidad,Tabla 6,2237,1,difiere
+primera_escolaridad,0.0339,5e-4,entidad,Tabla 6,0.03394968205739092,4.9682057390920686e-5,coincide
+primera_escolaridad_cota,0.416,5e-4,entidad,Tabla 6,0.41591217876512854,-8.782123487144355e-5,coincide
+primera_activos,-0.0277,5e-4,entidad,Tabla 6,-0.02767666648614577,2.333351385423038e-5,coincide
+primera_migracion,0.0083,5e-4,entidad,Tabla 6,0.00832663149570096,2.6631495700960364e-5,coincide
+transiciones_mde_pct,25,0.5,entidad,5.7,23.858689064546347,-1.141310935453653,difiere
+mun_n,15529,0,municipal,Tabla 5,15529,0,coincide
+mun_municipios,821,0,municipal,3.5,821,0,coincide
+mun_b3_conteo,-0.0344,5e-4,municipal,Tabla 5,-0.03444224296459965,-4.224296459964805e-5,coincide
+mun_ee_conteo,0.0232,5e-4,municipal,Tabla 5,0.02315236895426558,-4.763104573441909e-5,coincide
+mun_b3_tasa,0.0084,5e-4,municipal,Tabla 5,0.00662292832284168,-0.0017770716771583197,difiere
+mun_ee_tasa,0.0175,5e-4,municipal,Tabla 5,0.01772123031867068,2.2123031867067947e-4,coincide
+mun_b3_tasa_tamano,0.0076,5e-4,municipal,Tabla 5,0.00608908395711497,-0.00151091604288503,difiere
+mun_ee_tasa_entidad,0.0183,5e-4,municipal,Tabla 5,0.01870945657867088,4.0945657867088106e-4,coincide
+mun_cor_rural_conteo_intra,-0.3,0.005,municipal,Tabla 5,-0.3019283053924739,-0.0019283053924739058,coincide
+mun_cor_rural_tasa_intra,-0.11,0.005,municipal,Tabla 5,-0.1142620537237694,-0.004262053723769393,coincide
+mun_cor_rural_conteo_niveles,-0.37,0.005,municipal,Tabla 5,-0.36854403031062466,0.001455969689375336,coincide
+mun_cor_rural_tasa_niveles,-0.16,0.005,municipal,Tabla 5,-0.16552006744684805,-0.005520067446848048,difiere
+mun_de_intra,0.71,0.005,municipal,4.5,0.7140749050137781,0.004074905013778163,coincide
+mun_p_evento_con_tamano,0.13,0.015,municipal,5.5,0.11114008409058557,-0.018859915909414438,difiere
+mun_p_evento_sin_tamano,0.22,0.015,municipal,5.5,0.18233171578030857,-0.03766828421969143,difiere
+mun_mde_pct,7.6,0.05,municipal,5.7,7.638767706581963,0.0387677065819636,coincide
+mun_dbscan_municipios,533,0,municipal,5.4,533,0,coincide
+pool_mde_pct,12,0.5,pool_2017,5.7,NA,NA,omitido
+pool_pct_expuestos_2017,14,0.5,pool_2017,5.7,NA,NA,omitido
+pool_frac_max_2017,0.44,0.005,pool_2017,5.7,NA,NA,omitido
+ciclo_pend_2017,0.637,5e-4,pool_2017,5.3,NA,NA,omitido
+ciclo_pend_2023,0.583,5e-4,pool_2017,5.3,NA,NA,omitido
