@@ -497,6 +497,9 @@ guardar_tabla <- function(df, nombre) {
 }
 guardar_figura <- function(p, nombre, ancho = 7, alto = 4.5) {
   ruta <- file.path(RUTAS$figuras, paste0(nombre, ".png"))
+  # Formato de revista: el titulo, las notas y la fuente van en el manuscrito,
+  # no dentro de la imagen.
+  if (isTRUE(FIGURAS_SIN_TITULO)) p <- p + labs(title = NULL, subtitle = NULL, caption = NULL)
   ggsave(ruta, p, width = ancho, height = alto, dpi = 300, bg = "white")
   message("Figura: ", basename(ruta)); invisible(ruta)
 }
