@@ -131,7 +131,8 @@ nac_tasas <- casos |> left_join(pob_censo, by = c("cve_ent", "anio")) |>
             .groups = "drop") |>
   left_join(MAPA_DELITOS |> distinct(delito_id, etiqueta), by = "delito_id") |>
   mutate(panel = ifelse(delito_id == "hom_doloso", "(a) Homicidio doloso",
-                        "(b) Extorsion, secuestro y robo en carreteras con violencia"))
+                        "(b) Extorsión, secuestro y robo en carreteras con violencia"),
+         etiqueta = recode(etiqueta, "Extorsion" = "Extorsión"))
 g <- ggplot(nac_tasas, aes(anio, tasa, colour = etiqueta, shape = etiqueta)) +
   annotate("rect", xmin = 2007, xmax = 2012, ymin = -Inf, ymax = Inf, fill = "grey90") +
   geom_line() + geom_point(size = 1.2) +

@@ -59,8 +59,7 @@ registrar_decision(SCRIPT, "Inicio del repunte por conglomerado = primer anio de
 png(file.path(RUTAS$figuras, "fig04a_dendrograma_ward.png"), width = 8, height = 4.5,
     units = "in", res = 300)
 etq <- ENTIDADES$abrev[match(as.integer(cg$hc$labels), ENTIDADES$cve_ent)]
-plot(cg$hc, labels = etq, main = sprintf("(a) Dendrograma de Ward. Correlacion cofenetica = %.3f",
-                                          cg$resumen$correlacion_cofenetica),
+plot(cg$hc, labels = etq, main = "",
      xlab = "", sub = "", ylab = "Distancia", cex = 0.7)
 rect.hclust(cg$hc, k = K_FIJO, border = "grey40")
 dev.off()
@@ -70,7 +69,7 @@ sil_larga <- cg$silueta |> select(k, Ward = silueta_ward, `k-medias` = silueta_k
 g <- ggplot(sil_larga, aes(k, silueta, linetype = algoritmo, shape = algoritmo)) +
   geom_line() + geom_point(size = 2) +
   geom_vline(xintercept = K_FIJO, linetype = 3, colour = COLORES[["alto"]]) +
-  labs(x = "Numero de conglomerados (k)", y = "Silueta media", linetype = NULL, shape = NULL,
+  labs(x = "Número de conglomerados (k)", y = "Silueta media", linetype = NULL, shape = NULL,
        title = "(b) Seleccion de k por silueta",
        subtitle = sprintf("Rand ajustado Ward vs k-medias (k = %d): %.3f. Estabilidad (500 x 80 %%): media %.3f, p5 %.3f",
                           K_FIJO, cg$resumen$ari_ward_kmedias, cg$resumen$estabilidad_ari_media,
@@ -81,10 +80,11 @@ guardar_figura(g, "fig04b_silueta", 7, 4)
 g <- ggplot(cg$perfil, aes(anio, media, colour = nombre, fill = nombre)) +
   geom_ribbon(aes(ymin = media - de, ymax = media + de), alpha = 0.15, colour = NA) +
   geom_line(linewidth = 0.8) + geom_vline(xintercept = ANIO_REPUNTE, linetype = 3) +
-  facet_wrap(~ nombre) +
+  facet_wrap(~ nombre, labeller = as_labeller(c("Repunte temprano" = "Repunte temprano (pico 2010)",
+    "Repunte tardio" = "Repunte tardío (pico 2017)", "Sin repunte" = "Sin repunte (pico 1997)"))) +
   scale_colour_manual(values = COLORES_CONG, guide = "none") +
   scale_fill_manual(values = COLORES_CONG, guide = "none") +
-  labs(x = NULL, y = "Indice estandarizado dentro de la entidad",
+  labs(x = NULL, y = "Índice estandarizado dentro de la entidad",
        title = "(c) Tres calendarios de la violencia: trayectoria media por conglomerado (Ward)",
        subtitle = "Banda: +/- una desviacion estandar entre entidades del grupo. Linea punteada: 2007.",
        caption = FUENTE_SESNSP) + tema_paper(9)

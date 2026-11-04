@@ -111,7 +111,7 @@ guardar_tabla(tab, "t05_dosis_por_anio_de_nacimiento")
 # ---- 4. Figura 2 del Entregable 3: los dos componentes de la dosis -------------------------------
 g <- tibble(nac = 1959:1998, frac = fraccion_ventana(1959:1998, ANIO_REPUNTE)) |>
   ggplot(aes(nac, frac)) + geom_step(direction = "mid") + geom_point(size = 1) +
-  labs(x = "Anio de nacimiento", y = "Fraccion de la ventana 10-18 desde 2007",
+  labs(x = "Año de nacimiento", y = "Fracción de la ventana 10-18 desde 2007",
        title = "(a) Componente de cohorte de la dosis",
        subtitle = "0 para nacidos en 1988 o antes; 8/9 para 1996; 1 para 1997-1998.",
        caption = FUENTE_EMOVI) + tema_paper(9)
@@ -119,10 +119,11 @@ guardar_figura(g, "fig02a_fraccion_ventana", 6, 4)
 g <- int |> mutate(en_muestra = ifelse(cve_ent %in% ents, "Con muestra", "Sin observaciones en la muestra"),
                    abrev = reorder(abrev, int)) |>
   ggplot(aes(abrev, int, fill = conglomerado, alpha = en_muestra)) + geom_col(colour = "grey30") +
-  scale_fill_manual(values = COLORES_CONG, name = "Conglomerado") +
+  scale_fill_manual(values = COLORES_CONG, name = "Conglomerado",
+                    labels = c("Repunte tardio" = "Repunte tardío", "Repunte temprano" = "Repunte temprano", "Sin repunte" = "Sin repunte")) +
   scale_alpha_manual(values = c("Con muestra" = 1, "Sin observaciones en la muestra" = 0.25),
                      name = NULL) +
-  labs(x = NULL, y = "Indice medio 2007-2017",
+  labs(x = NULL, y = "Índice medio 2007-2017",
        title = "(b) Intensidad de la violencia por entidad (ordenada)",
        subtitle = sprintf("DE entre las %d entidades con muestra: %.3f. Tlaxcala sin observaciones.",
                           length(ents), de_(int$int)),
