@@ -1,0 +1,12 @@
+# Datos: no se publican (la ESRU-EMOVI la distribuye el CEEY a peticion;
+# SESNSP y CONAPO son publicos pero pesan mas de 60 MB). Ver INSTRUCCIONES_DATOS.md
+data/raw/*
+data/clean/*
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
