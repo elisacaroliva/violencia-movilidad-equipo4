@@ -1,0 +1,9 @@
+script,paso,n,n_previo,perdidos,nota
+01_limpieza_emovi,"ESRU-EMOVI 2023, base Entrevistado",17843,NA,NA,
+01_limpieza_emovi,Base limpia (sin exclusiones),17843,17843,0,
+02_indices_recursos,Con rango de origen y destino (PCA),17843,17843,0,
+03_panel_violencia,Panel entidad-anio,672,NA,NA,32 entidades x 21 anios (1997-2017)
+05_dosis_y_muestra,Con entidad a los 14 dentro del pais,17789,17843,54,Excluye a quien vivia en el extranjero a los 14 (p19 = 33)
+05_dosis_y_muestra,Viven en la misma entidad que a los 14 (muestra principal),15558,17789,2231,Robustez: con migrantes interestatales
+05_dosis_y_muestra,Muestra principal sin corresidentes,12705,15558,2853,
+11_diseno_municipal,"Muestra municipal (municipio a los 14 valido, con homicidios y poblacion)",15529,15558,29,

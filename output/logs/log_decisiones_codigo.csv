@@ -1,0 +1,11 @@
+script,decision,criterio,casos_afectados
+01_limpieza_emovi,Escolaridad: 13 niveles de p9 a anios completos; 97 (ninguno) = 0,"Entregable 3, 3.4. Padres: maximo de p42a y p42b; 98 (no sabe) = faltante",17843
+01_limpieza_emovi,Anio de nacimiento = 2023 - edad,La base no publica fecha de nacimiento; error posible de +/-1 (robustez en 07),17843
+01_limpieza_emovi,"Origen rural = localidad de menos de 2,500 hab. a los 14 (p21 == 5)",Definicion INEGI. La Entrega 2 usaba p21 de 3 a 5 (incluia ciudades de 15 mil a 100 mil),5240
+02_indices_recursos,No sabe / no responde imputado con la media del reactivo antes del PCA,Igual que la Entrega 2; conserva la muestra completa,9800
+02_indices_recursos,Rangos principales con la regla del Entregable 3 (empates por orden de fila),La version con empates compartidos (correccion v4) queda como robustez,3748
+03_panel_violencia,"Robo en carreteras sin registro nacional = faltante, no cero",La Entrega 2 lo trataba como cero; eso hacia parecer 'pacificos' esos anios,160
+03_panel_violencia,"Indice principal = promedio de las 4 tasas estandarizadas, no PC1",PC1 (v4) explica 35 % y la carga del robo en carreteras es -0.07,NA
+03_panel_violencia,"Construccion principal = Entregable 3 (poblacion censal interpolada, robo = 0 en 1997-2001)",Decision del equipo para la v5; la construccion v4 queda como robustez (D18),NA
+04_conglomerados,Inicio del repunte por conglomerado = primer anio desde el cual el perfil medio queda arriba de 0 hasta su pico,Grupo sin repunte: sin inicio (dosis de calendario = 0),32
+05_dosis_y_muestra,Se excluye a quienes cambiaron de entidad desde los 14,Igual que la Entrega 2. Su inclusion va en robustez,2231

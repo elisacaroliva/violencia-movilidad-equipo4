@@ -1,0 +1,14 @@
+script,segundos,estado
+scripts/limpieza/01_limpieza_emovi.R,3.4,ok
+scripts/limpieza/02_indices_recursos.R,5.6,ok
+scripts/limpieza/03_panel_violencia.R,3.4,ok
+scripts/limpieza/04_conglomerados.R,1.9,ok
+scripts/limpieza/05_dosis_y_muestra.R,2.2,ok
+scripts/resultados/06_descriptivos.R,3.7,ok
+scripts/resultados/07_modelo_principal.R,3.4,ok
+scripts/resultados/08_inferencia.R,128.9,ok
+scripts/resultados/09_supuesto_y_placebo.R,0.8,ok
+scripts/resultados/10_heterogeneidad.R,22.5,ok
+scripts/resultados/11_diseno_municipal.R,31,ok
+scripts/resultados/12_emovi_2017_ciclo_de_vida.R,0.2,ok
+scripts/resultados/13_verificacion_entregable3.R,1.3,ok
