@@ -13,7 +13,7 @@
 paquetes_requeridos <- c(
   "here", "dplyr", "tidyr", "readr", "stringr", "stringi", "purrr", "tibble",
   "haven", "fixest", "survey", "FactoMineR", "cluster", "dbscan", "ggplot2",
-  "scales", "sessioninfo", "jsonlite"
+  "scales", "sessioninfo", "jsonlite", "ranger"
 )
 faltantes <- paquetes_requeridos[!vapply(paquetes_requeridos, requireNamespace,
                                          logical(1), quietly = TRUE)]
@@ -139,7 +139,8 @@ DBSCAN_MUN_MINPTS <- 10L
 ENTIDADES    <- read_csv(file.path(RUTAS$config, "entidades.csv"))
 MAPA_DELITOS <- read_csv(file.path(RUTAS$config, "mapa_delitos.csv"))
 
-# ---- 8. Estilo grafico ----------------------------------------------------------
+# ---- 8. Estilo grafico
+FIGURAS_SIN_TITULO <- TRUE   # titulos y fuentes van en el manuscrito (formato de El Trimestre Economico) ----------------------------------------------------------
 COLORES <- c(bajo = "#3f7cac", alto = "#a63a2b", medio = "#c98f2e", neutro = "#7d7d7d")
 COLORES_CONG <- c("Repunte temprano" = "#a63a2b", "Repunte tardio" = "#c98f2e",
                   "Sin repunte" = "#3f7cac")

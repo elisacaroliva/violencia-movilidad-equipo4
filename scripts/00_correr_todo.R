@@ -20,7 +20,8 @@ pasos <- c(
   "scripts/resultados/10_heterogeneidad.R",
   "scripts/resultados/11_diseno_municipal.R",        # OMITIBLE (EJECUTAR_MUNICIPAL)
   "scripts/resultados/12_emovi_2017_ciclo_de_vida.R", # OMITIBLE (EJECUTAR_POOL_2017)
-  "scripts/resultados/13_verificacion_entregable3.R"
+  "scripts/resultados/13_verificacion_entregable3.R",
+  "scripts/resultados/14_validacion_predictiva.R"        # entrenamiento/prueba, VC y modelo de referencia
 )
 
 tiempos <- tibble(script = character(), segundos = numeric(), estado = character())
