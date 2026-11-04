@@ -163,8 +163,8 @@ g <- ggplot(e1, aes(grupo, b, colour = tipo)) +
   geom_point(size = 2) +
   scale_colour_manual(values = c("Ventana previa al repunte" = COLORES[["bajo"]],
                                  "Ventana con repunte (expuestos)" = COLORES[["alto"]]), name = NULL) +
-  labs(x = "Grupo de anio de nacimiento (referencia 1979-82)",
-       y = "Cambio en la pendiente por DE\nde la desviacion intraestatal",
+  labs(x = "Grupo de año de nacimiento (referencia: 1979-82)",
+       y = "Cambio en la pendiente por DE\nde la desviación intraestatal",
        title = sprintf("(b) Estudio de eventos, diseno municipal (tasa, con tamano de localidad). Previos: p = %.2f",
                        e1$p_previos[1]),
        subtitle = "Barras: IC 95 % con errores agrupados por municipio.", caption = FUENTE_MUN) +

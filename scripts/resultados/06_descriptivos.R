@@ -79,6 +79,12 @@ t1 <- map_dfr(names(vars_t1), function(v) {
          media_expuestos = e[["media"]], media_no_expuestos = u[["media"]],
          diferencia = e[["media"]] - u[["media"]], n = a[["n"]])
 })
+# Error estandar de la media con el diseno completo (UPM, estrato y factor de expansion)
+ee_dis <- map_dbl(names(vars_t1), function(v) {
+  f <- as.formula(paste0("~", v))
+  as.numeric(survey::SE(survey::svymean(f, dis_m, na.rm = TRUE)))
+})
+t1$ee_disenio <- ee_dis
 guardar_tabla(t1, "t06_tabla1_descriptivos")
 guardar_tabla(tibble(expuestos = sum(exp_), pct_expuestos = 100 * mean(exp_),
                      no_expuestos = sum(!exp_), municipios_origen = n_distinct(na.omit(M$mun_14)),

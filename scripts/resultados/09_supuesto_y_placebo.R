@@ -63,7 +63,7 @@ g <- ggplot(e1$ev, aes(grupo, b, colour = tipo)) +
   geom_point(size = 2) +
   scale_colour_manual(values = c("Ventana previa al repunte" = COLORES[["bajo"]],
                                  "Ventana con repunte (expuestos)" = COLORES[["alto"]]), name = NULL) +
-  labs(x = "Grupo de anio de nacimiento (referencia 1979-82)",
+  labs(x = "Grupo de año de nacimiento (referencia: 1979-82)",
        y = "Cambio en la pendiente origen-destino\npor DE de intensidad",
        title = sprintf("(a) Estudio de eventos, entidad. Prueba conjunta de los grupos previos: F = %.2f, p = %.2f",
                        e1$prueba$F, e1$prueba$p),
