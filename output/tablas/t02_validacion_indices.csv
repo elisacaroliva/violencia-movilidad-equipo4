@@ -1,0 +1,9 @@
+indicador,valor
+Reactivos del indice de origen (PCA),43
+Reactivos del indice de destino (PCA),40
+"Varianza del primer componente, origen (%)",20.99692600742627
+"Varianza del primer componente, destino (%)",16.12874388926947
+"Spearman PCA vs ACM, origen",0.9418847647664376
+"Spearman PCA vs ACM, destino",0.9970144823913527
+Spearman destino PCA vs ingreso imputado CEEY (ingc_pc),0.6600850398020838
+Casos con ACM completo (origen y destino),14587

@@ -1,0 +1,7 @@
+k,temprano_juntos,temprano_identico,tardio_juntos,tardio_identico,indice
+2,TRUE,TRUE,TRUE,FALSE,Principal
+3,TRUE,TRUE,TRUE,TRUE,Principal
+4,TRUE,TRUE,TRUE,TRUE,Principal
+2,TRUE,TRUE,TRUE,FALSE,v4
+3,TRUE,TRUE,TRUE,TRUE,v4
+4,TRUE,TRUE,FALSE,FALSE,v4

@@ -1,0 +1,3 @@
+correlacion_cofenetica,k_usado,k_silueta,k_silueta_ward,silueta_max,silueta_k_usado,silueta_ward_k_usado,ari_ward_kmedias,estabilidad_ari_media,estabilidad_ari_p5,r2_vs_k1_k_usado,k_calinski,k_davies_bouldin,amplitud_picos,pico_referencia_k1,dbscan_max_grupos,dbscan_ruido_min,dbscan_ruido_max,indice
+0.6027902990279254,3,3,3,0.2467339343717366,0.2467339343717366,0.23561720429726324,0.8488226278389299,0.8617325867351273,0.6214655014700236,0.3876276200276666,2,8,20,2017,1,3,14,Principal (Entregable 3)
+0.6090363918024613,3,5,5,0.2266143958613771,0.21439236404822953,0.21455293876553916,0.6489374557632882,0.7833062408256796,0.4595492036405006,0.35660352566188935,2,5,18,2017,3,3,19,"v4: robo faltante antes de 2002, CONAPO"

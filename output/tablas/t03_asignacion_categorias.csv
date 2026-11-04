@@ -1,0 +1,12 @@
+nivel1,nivel2,nivel3,delito_id,etiqueta
+HOMICIDIOS,DOLOSOS,CON ARMA DE FUEGO,hom_doloso,Homicidio doloso
+HOMICIDIOS,DOLOSOS,CON ARMA BLANCA,hom_doloso,Homicidio doloso
+HOMICIDIOS,DOLOSOS,OTROS,hom_doloso,Homicidio doloso
+HOMICIDIOS,DOLOSOS,SIN DATOS,hom_doloso,Homicidio doloso
+PRIV. DE LA LIBERTAD (SECUESTRO),SECUESTRO,SECUESTRO,secuestro,Secuestro
+DELITOS PATRIMONIALES,EXTORSION,EXTORSION,extorsion,Extorsion
+ROBO EN CARRETERAS,CON VIOLENCIA,A CAMIONES DE CARGA,robo_carr_cv,Robo en carreteras con violencia
+ROBO EN CARRETERAS,CON VIOLENCIA,A AUTOBUSES,robo_carr_cv,Robo en carreteras con violencia
+ROBO EN CARRETERAS,CON VIOLENCIA,A VEHICULOS PARTICULARES,robo_carr_cv,Robo en carreteras con violencia
+ROBO EN CARRETERAS,CON VIOLENCIA,OTROS,robo_carr_cv,Robo en carreteras con violencia
+ROBO EN CARRETERAS,CON VIOLENCIA,SIN DATOS,robo_carr_cv,Robo en carreteras con violencia

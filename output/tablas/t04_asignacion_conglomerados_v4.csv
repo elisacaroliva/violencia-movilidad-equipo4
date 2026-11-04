@@ -1,0 +1,33 @@
+cve_ent,grupo,grupo_kmedias,anio_pico,nombre,anio_inicio,entidad,abrev
+1,1,1,2017,Repunte tardio,2010,Aguascalientes,Ags
+2,2,3,2010,Repunte temprano,2008,Baja California,BC
+3,1,2,2017,Repunte tardio,2010,Baja California Sur,BCS
+4,1,2,2017,Repunte tardio,2010,Campeche,Camp
+5,2,3,2010,Repunte temprano,2008,Coahuila,Coah
+6,1,2,2017,Repunte tardio,2010,Colima,Col
+7,3,1,1999,Sin repunte,NA,Chiapas,Chis
+8,2,3,2010,Repunte temprano,2008,Chihuahua,Chih
+9,2,3,2010,Repunte temprano,2008,Ciudad de Mexico,CDMX
+10,2,3,2010,Repunte temprano,2008,Durango,Dgo
+11,2,3,2010,Repunte temprano,2008,Guanajuato,Gto
+12,1,2,2017,Repunte tardio,2010,Guerrero,Gro
+13,2,3,2010,Repunte temprano,2008,Hidalgo,Hgo
+14,2,3,2010,Repunte temprano,2008,Jalisco,Jal
+15,3,2,1999,Sin repunte,NA,Estado de Mexico,Mex
+16,2,3,2010,Repunte temprano,2008,Michoacan,Mich
+17,2,3,2010,Repunte temprano,2008,Morelos,Mor
+18,2,3,2010,Repunte temprano,2008,Nayarit,Nay
+19,1,2,2017,Repunte tardio,2010,Nuevo Leon,NL
+20,3,3,1999,Sin repunte,NA,Oaxaca,Oax
+21,1,2,2017,Repunte tardio,2010,Puebla,Pue
+22,1,1,2017,Repunte tardio,2010,Queretaro,Qro
+23,2,3,2010,Repunte temprano,2008,Quintana Roo,QR
+24,2,3,2010,Repunte temprano,2008,San Luis Potosi,SLP
+25,2,3,2010,Repunte temprano,2008,Sinaloa,Sin
+26,1,1,2017,Repunte tardio,2010,Sonora,Son
+27,1,1,2017,Repunte tardio,2010,Tabasco,Tab
+28,1,2,2017,Repunte tardio,2010,Tamaulipas,Tamps
+29,1,2,2017,Repunte tardio,2010,Tlaxcala,Tlax
+30,1,2,2017,Repunte tardio,2010,Veracruz,Ver
+31,1,1,2017,Repunte tardio,2010,Yucatan,Yuc
+32,1,2,2017,Repunte tardio,2010,Zacatecas,Zac
